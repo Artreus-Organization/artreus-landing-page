@@ -18,7 +18,7 @@ const Header = () => {
         {
             path: 'https://discord.gg/r3c3ethUgs',
             display: 'LaunchPad',
-      },
+        },
 
         {
             path: 'https://discord.gg/r3c3ethUgs',
@@ -26,7 +26,7 @@ const Header = () => {
         },
 
         {
-            path: 'https://market.artreus.io/',
+            path: 'https://marketplace.artreus.io/',
             display: 'Marketplace',
         }
     ];
@@ -76,7 +76,12 @@ const Header = () => {
                         </div>
 
                         <div className={`${styles.hero_btn}`}>
-                            <Button btnText={`Join the Marketplace`} styleName={`cta_btn`} />
+                            <a
+                                href='http://marketplace.artreus.io/'
+                            >
+                                <Button btnText={`Join the Marketplace`} styleName={`cta_btn`} />
+                            </a>
+
                         </div>
 
                     </Col>
