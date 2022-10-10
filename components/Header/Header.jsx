@@ -26,7 +26,7 @@ const Header = () => {
         },
 
         {
-            path: '#marketplace',
+            path: 'http://market.artreus.io/',
             display: 'Marketplace',
         }
     ];
