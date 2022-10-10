@@ -18,7 +18,7 @@ const Buy = () => {
 
                                 <div className={`${styles.vid_con} py-2`}>
                                     <video className={`${styles.vid} `} autoPlay loop muted>
-                                        <source src="http://d5mhdc97neilw.cloudfront.net/NFT_PASS.mp4" type="video/mp4" />
+                                        <source src="https://d5mhdc97neilw.cloudfront.net/NFT_PASS.mp4" type="video/mp4" />
                                     </video>
                                 </div>
 
